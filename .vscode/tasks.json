@@ -6,7 +6,7 @@
         {
             "label": "Project Label",
             "type": "shell",
-            "command": "${command:python.interpreterPath}",
+            "command": "${workspaceFolder}/bin/python",
             "args": [
                 "${file}"
             ],
